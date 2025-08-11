@@ -25,13 +25,12 @@ function App() {
   return (
     <>
       {Profiles.map((item) => (
-        <div key={item.id}>
-          <ProfileCard
-            name={item.name}
-            title={item.title}
-            imageUrl={item.imageUrl}
-          />
-        </div>
+        <ProfileCard
+          key={item.id}
+          name={item.name}
+          title={item.title}
+          imageUrl={item.imageUrl}
+        />
       ))}
     </>
   );

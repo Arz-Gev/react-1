@@ -1,7 +1,6 @@
 import "./style.css";
 
 export default function ProfileCard({ name, title, imageUrl }) {
-  console.log(name);
   return (
     <div className="location-card">
       <img src={imageUrl} alt="picture of nature" width="auto" height="200px" />
